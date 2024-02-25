@@ -26,7 +26,7 @@ namespace WebApi.Controllers
         public IActionResult Get() 
         {
           
-            return Ok(_brandService.GetAll(););
+            return Ok(_brandService.GetAll());
         }
     }
 }
